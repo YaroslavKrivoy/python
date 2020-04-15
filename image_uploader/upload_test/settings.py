@@ -129,6 +129,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+CELERY_BROKER_URL = 'amqp://localhost'
+
 SESSION_COOKIE_SECURE = True
 
 # Static files (CSS, JavaScript, Images)
